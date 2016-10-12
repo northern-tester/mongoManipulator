@@ -1,0 +1,21 @@
+14:56:23.464 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:56:23.464 Watching directory: /Users/awi40/tooling/mongoManipulator/specs
+14:56:23.464 Found 1 files
+14:56:23.464 Initializing concepts cache with 0 concepts
+14:56:23.465 Initializing specs cache with 1 specs
+14:56:23.465 Adding specs from /Users/awi40/tooling/mongoManipulator/specs/example.spec
+14:56:23.465 Initializing steps cache with 3 steps
+14:56:24.456 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:56:24.456 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/awi40/.gauge/plugins/java/0.5.0/libs" > 
+14:56:24.491 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:56:24.493 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/awi40/.gauge/plugins/java/0.5.0/libs" > 
+14:56:24.965 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:56:24.965 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/awi40/.gauge/plugins/java/0.5.0/libs" > 
+14:56:25.181 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+14:56:25.181 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"/Users/awi40/.gauge/plugins/java/0.5.0/libs" > 
+14:56:25.354 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:56:25.354 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:56:25.362 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:56:25.362 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:56:25.363 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:56:25.363 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
