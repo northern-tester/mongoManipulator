@@ -1,1 +1,409 @@
 14:56:24.298 Got a kill message. Killing runner.
+06:30:26.879 Checking updates...
+06:30:29.301 # Specification Heading
+06:30:29.301 ## Number of Databases In Cosmos
+06:30:29.302 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:30:30.369 
+Failed Step: To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+06:30:30.369 Specification: specs/mongoConnector.spec:10
+06:30:30.369 Error Message: java.lang.NoClassDefFoundError: com/mongodb/connection/BufferProvider
+06:30:30.369 Stacktrace: 
+mongoConnector.implementation1(mongoConnector.java:12)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+06:30:30.372 ## Number of Collections within Databases
+06:30:30.373 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:30:30.678 
+Failed Step: To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+06:30:30.678 Specification: specs/mongoConnector.spec:10
+06:30:30.678 Error Message: java.lang.NoClassDefFoundError: com/mongodb/connection/BufferProvider
+06:30:30.678 Stacktrace: 
+mongoConnector.implementation1(mongoConnector.java:12)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+06:30:31.303 Plugin [Html Report] with pid [90845] has exited
+06:30:31.611 Specifications:	1 executed	0 passed	1 failed	0 skipped
+06:30:31.611 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06:30:31.611 
+Total time taken: 1.416s
+06:55:44.284 Checking updates...
+06:55:46.897 # Specification Heading
+06:55:46.897 ## Number of Databases In Cosmos
+06:55:46.899 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:55:48.169 
+Failed Step: To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+06:55:48.169 Specification: specs/mongoConnector.spec:10
+06:55:48.169 Error Message: java.lang.NoClassDefFoundError: com/mongodb/connection/BufferProvider
+06:55:48.169 Stacktrace: 
+mongoConnector.implementation1(mongoConnector.java:12)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+06:55:48.170 ## Number of Collections within Databases
+06:55:48.171 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:55:48.465 
+Failed Step: To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+06:55:48.465 Specification: specs/mongoConnector.spec:10
+06:55:48.465 Error Message: java.lang.NoClassDefFoundError: com/mongodb/connection/BufferProvider
+06:55:48.465 Stacktrace: 
+mongoConnector.implementation1(mongoConnector.java:12)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+06:55:48.572 Plugin [Html Report] with pid [91763] has exited
+06:55:49.087 Specifications:	1 executed	0 passed	1 failed	0 skipped
+06:55:49.087 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+06:55:49.087 
+Total time taken: 1.618s
+06:59:28.155 Checking updates...
+06:59:31.368 # Specification Heading
+06:59:31.369 ## Number of Databases In Cosmos
+06:59:31.370 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:59:31.561 * The number of "dbs" within "localhost" is "6".
+
+06:59:31.562 ## Number of Collections within Databases
+06:59:31.563 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+06:59:31.566 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+06:59:31.675 Plugin [Html Report] with pid [91867] has exited
+06:59:31.779 Specifications:	1 executed	1 passed	0 failed	0 skipped
+06:59:31.779 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+06:59:31.779 
+Total time taken: 252ms
+09:59:32.050 Checking updates...
+09:59:34.788 # Specification Heading
+09:59:34.789 ## Number of Databases In Cosmos
+09:59:34.789 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+09:59:34.953 * The number of dbs within "workstation" is "6".
+
+09:59:36.345 
+Failed Step: The number of dbs within "workstation" is "6".
+09:59:36.345 Specification: specs/mongoConnector.spec:17
+09:59:36.345 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+09:59:36.345 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+mongoConnector.countDBs(mongoConnector.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+09:59:36.346 ## Number of Collections within Databases
+09:59:36.347 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+09:59:36.348 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+09:59:36.456 Plugin [Html Report] with pid [95818] has exited
+09:59:36.772 Specifications:	1 executed	0 passed	1 failed	0 skipped
+09:59:36.772 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+09:59:36.772 
+Total time taken: 1.611s
+10:23:27.408 Checking updates...
+10:23:30.031 # Specification Heading
+10:23:30.032 ## Number of Databases In Cosmos
+10:23:30.033 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:23:30.145 * The number of dbs within "workstation" is "6".
+
+10:23:31.229 
+Failed Step: The number of dbs within "workstation" is "6".
+10:23:31.229 Specification: specs/mongoConnector.spec:17
+10:23:31.229 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+10:23:31.229 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+mongoConnector.countDBs(mongoConnector.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:23:31.230 ## Number of Collections within Databases
+10:23:31.231 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:23:31.233 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+10:23:31.341 Plugin [Html Report] with pid [96424] has exited
+10:23:31.445 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:23:31.445 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+10:23:31.445 
+Total time taken: 1.244s
+10:34:49.805 Checking updates...
+10:34:52.316 # Specification Heading
+10:34:52.316 ## Number of Databases In Cosmos
+10:34:52.317 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:34:52.440 * The number of dbs within "workstation" is "6".
+
+10:34:53.793 
+Failed Step: The number of dbs within "workstation" is "6".
+10:34:53.793 Specification: specs/mongoConnector.spec:17
+10:34:53.793 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+10:34:53.793 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+mongoConnector.countDBs(mongoConnector.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:34:53.794 ## Number of Collections within Databases
+10:34:53.795 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:34:53.796 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+10:34:53.905 Plugin [Html Report] with pid [96849] has exited
+10:34:54.425 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:34:54.425 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+10:34:54.425 
+Total time taken: 1.534s
+10:41:32.077 Checking updates...
+10:41:34.586 # Specification Heading
+10:41:34.586 ## Number of Databases In Cosmos
+10:41:34.587 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:41:34.696 * The number of dbs within "workstation" is "6".
+
+10:41:36.009 
+Failed Step: The number of dbs within "workstation" is "6".
+10:41:36.009 Specification: specs/mongoConnector.spec:17
+10:41:36.009 Error Message: java.lang.AssertionError: Number of DBs on workstation expected:<6> but was:<7>
+10:41:36.009 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+mongoConnector.countDBs(mongoConnector.java:34)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:41:36.010 ## Number of Collections within Databases
+10:41:36.011 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:41:36.013 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+10:41:36.119 Plugin [Html Report] with pid [96984] has exited
+10:41:36.223 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:41:36.223 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+10:41:36.223 
+Total time taken: 1.471s
+10:59:55.970 Checking updates...
+10:59:58.526 # Specification Heading
+10:59:58.527 ## Number of Databases In Cosmos
+10:59:58.528 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:59:58.648 * The number of dbs within "workstation" is "6".
+
+11:00:00.062 
+Failed Step: The number of dbs within "workstation" is "6".
+11:00:00.062 Specification: specs/mongoConnector.spec:17
+11:00:00.062 Error Message: java.lang.AssertionError: Number of DBs on workstation expected:<6> but was:<7>
+11:00:00.062 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+mongoConnector.countDBs(mongoConnector.java:34)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+11:00:00.063 ## Number of Collections within Databases
+11:00:00.064 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+11:00:00.066 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+11:00:00.173 Plugin [Html Report] with pid [97349] has exited
+11:00:00.697 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:00:00.697 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+11:00:00.697 
+Total time taken: 1.595s
+11:00:23.846 Checking updates...
+11:00:26.734 # Specification Heading
+11:00:26.734 ## Number of Databases In Cosmos
+11:00:26.735 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+11:00:26.848 * The number of dbs within "workstation" is "7".
+
+11:00:26.871 ## Number of Collections within Databases
+11:00:26.872 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+11:00:26.874 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+11:00:26.979 Plugin [Html Report] with pid [97359] has exited
+11:00:27.084 Specifications:	1 executed	1 passed	0 failed	0 skipped
+11:00:27.084 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+11:00:27.084 
+Total time taken: 182ms
