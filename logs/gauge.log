@@ -407,3 +407,78 @@ Total time taken: 1.595s
 11:00:27.084 Scenarios:	2 executed	2 passed	0 failed	0 skipped
 11:00:27.084 
 Total time taken: 182ms
+17:21:53.502 Checking updates...
+17:21:56.330 # Connect and Count Assets
+17:21:56.331 ## Number of Databases In Cosmos
+17:21:56.332 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:21:56.495 * The number of dbs within "workstation" is "7".
+
+17:21:56.522 ## Number of Collections within Databases
+17:21:56.523 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:21:56.526 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+17:21:56.699 Plugin [Html Report] with pid [8959] has exited
+17:21:56.800 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:21:56.800 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+17:21:56.800 
+Total time taken: 310ms
+17:22:15.551 Checking updates...
+17:22:17.954 # Connect and Count Assets
+17:22:17.955 ## Number of Databases In Cosmos
+17:22:17.955 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:22:18.511 * The number of dbs within "workstation" is "7".
+
+17:22:18.534 ## Number of Collections within Databases
+17:22:18.535 * To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:22:18.537 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |17         |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+17:22:19.902 
+Failed Step: Each db will have a specified number of collections.
+17:22:19.902 Specification: specs/mongoConnector.spec:27
+17:22:19.902 Error Message: java.lang.AssertionError: event-store has the expected number of collections expected:<17> but was:<6>
+17:22:19.902 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:645)
+mongoConnector.iterateThroughDBsCountCollections(mongoConnector.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+17:22:20.008 Plugin [Html Report] with pid [8969] has exited
+17:22:20.529 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:22:20.529 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+17:22:20.530 
+Total time taken: 1.987s
+11:12:43.449 Got a kill message. Killing runner.
+11:12:47.451 Killing runner with PID:32123 forcefully
