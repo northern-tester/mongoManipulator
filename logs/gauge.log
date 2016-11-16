@@ -482,3 +482,1246 @@ com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
 Total time taken: 1.987s
 11:12:43.449 Got a kill message. Killing runner.
 11:12:47.451 Killing runner with PID:32123 forcefully
+19:17:53.024 Checking updates...
+19:18:21.307 Checking updates...
+19:18:22.294 # Connect and Check Assets
+19:18:22.294 ## Check that the Mongo Instance is in a Cluster
+19:18:22.295 * Connect to "workstation".
+
+19:18:23.215 Failed Step: Connect to "workstation".
+19:18:23.215 Error Message: java.lang.NumberFormatException: null
+19:18:23.215 Specification: specs/mongoConnector.spec:10
+19:18:23.215 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.<init>(mongoConnector.java:13)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:18:23.216 ## Check that the Mongo Instance is a Primary
+19:18:23.217 * Connect to "workstation".
+
+19:18:23.550 Failed Step: Connect to "workstation".
+19:18:23.550 Error Message: java.lang.NumberFormatException: null
+19:18:23.550 Specification: specs/mongoConnector.spec:10
+19:18:23.550 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.<init>(mongoConnector.java:13)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:18:23.658 Plugin [Html Report] with pid [96207] has exited
+19:18:24.073 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:18:24.073 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:18:24.073 
+Total time taken: 1.308s
+19:19:50.774 Checking updates...
+19:19:51.799 # Connect and Check Assets
+19:19:51.800 ## Check that the Mongo Instance is in a Cluster
+19:19:51.801 * Connect to "workstation".
+
+19:19:52.617 Failed Step: Connect to "workstation".
+19:19:52.617 Error Message: java.lang.NumberFormatException: null
+19:19:52.617 Specification: specs/mongoConnector.spec:10
+19:19:52.617 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:19:52.618 ## Check that the Mongo Instance is a Primary
+19:19:52.618 * Connect to "workstation".
+
+19:19:52.965 Failed Step: Connect to "workstation".
+19:19:52.965 Error Message: java.lang.NumberFormatException: null
+19:19:52.965 Specification: specs/mongoConnector.spec:10
+19:19:52.965 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:19:53.071 Plugin [Html Report] with pid [96222] has exited
+19:19:53.278 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:19:53.278 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:19:53.278 
+Total time taken: 1.204s
+19:22:13.422 Checking updates...
+19:22:14.306 # Connect and Check Assets
+19:22:14.307 ## Check that the Mongo Instance is in a Cluster
+19:22:14.307 * Connect to "workstation".
+
+19:22:15.149 Failed Step: Connect to "workstation".
+19:22:15.149 Error Message: java.lang.NumberFormatException: null
+19:22:15.149 Specification: specs/mongoConnector.spec:10
+19:22:15.149 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:22:15.150 ## Check that the Mongo Instance is a Primary
+19:22:15.150 * Connect to "workstation".
+
+19:22:15.499 Failed Step: Connect to "workstation".
+19:22:15.499 Error Message: java.lang.NumberFormatException: null
+19:22:15.499 Specification: specs/mongoConnector.spec:10
+19:22:15.499 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:22:15.606 Plugin [Html Report] with pid [96243] has exited
+19:22:16.018 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:22:16.018 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:22:16.018 
+Total time taken: 1.233s
+19:23:04.237 Checking updates...
+19:23:04.691 # Connect and Check Assets
+19:23:04.692 ## Check that the Mongo Instance is in a Cluster
+19:23:04.693 * Connect to "workstation".
+
+19:23:05.468 Failed Step: Connect to "workstation".
+19:23:05.468 Error Message: java.lang.NumberFormatException: null
+19:23:05.468 Specification: specs/mongoConnector.spec:10
+19:23:05.468 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:23:05.469 ## Check that the Mongo Instance is a Primary
+19:23:05.470 * Connect to "workstation".
+
+19:23:05.828 Failed Step: Connect to "workstation".
+19:23:05.828 Error Message: java.lang.NumberFormatException: null
+19:23:05.828 Specification: specs/mongoConnector.spec:10
+19:23:05.828 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.mongoConnector(mongoConnector.java:17)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:23:05.936 Plugin [Html Report] with pid [96257] has exited
+19:23:06.350 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:23:06.350 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:23:06.350 
+Total time taken: 1.153s
+19:27:12.152 Checking updates...
+19:27:13.029 # Connect and Check Assets
+19:27:13.030 ## Check that the Mongo Instance is in a Cluster
+19:27:13.030 * Connect to "workstation".
+
+19:27:13.894 Failed Step: Connect to "workstation".
+19:27:13.894 Error Message: java.lang.NumberFormatException: null
+19:27:13.894 Specification: specs/mongoConnector.spec:10
+19:27:13.894 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.<init>(mongoConnector.java:13)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:27:13.895 ## Check that the Mongo Instance is a Primary
+19:27:13.896 * Connect to "workstation".
+
+19:27:14.230 Failed Step: Connect to "workstation".
+19:27:14.231 Error Message: java.lang.NumberFormatException: null
+19:27:14.231 Specification: specs/mongoConnector.spec:10
+19:27:14.231 Stacktrace: 
+java.lang.Integer.parseInt(Integer.java:542)
+java.lang.Integer.parseInt(Integer.java:615)
+mongoConnector.<init>(mongoConnector.java:13)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:31)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:27:14.337 Plugin [Html Report] with pid [96342] has exited
+19:27:14.755 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:27:14.755 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:27:14.755 
+Total time taken: 1.245s
+19:27:52.784 Checking updates...
+19:27:53.247 # Connect and Check Assets
+19:27:53.247 ## Check that the Mongo Instance is in a Cluster
+19:27:53.248 * Connect to "workstation".
+
+19:27:53.385 * The mongo instance "workstation" is "not" part of a cluster.
+
+19:27:53.387 ## Check that the Mongo Instance is a Primary
+19:27:53.388 * Connect to "workstation".
+
+19:27:53.389 * The mongo instance "workstation" is set as "Primary".
+19:27:53.496 Plugin [Html Report] with pid [96355] has exited
+19:27:53.598 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:27:53.598 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+19:27:53.598 
+Total time taken: 157ms
+19:34:32.552 Checking updates...
+19:34:32.904 # Connect and Check Assets
+19:34:32.904 ## Check that the Mongo Instance is in a Cluster
+19:34:32.905 * Connect to "workstation".
+
+19:34:33.674 Failed Step: Connect to "workstation".
+19:34:33.674 Error Message: java.lang.NullPointerException
+19:34:33.674 Specification: specs/mongoConnector.spec:10
+19:34:33.674 Stacktrace: 
+mongoConnector.mongoConnector(mongoConnector.java:18)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:34:33.674 ## Check that the Mongo Instance is a Primary
+19:34:33.675 * Connect to "workstation".
+
+19:34:34.027 Failed Step: Connect to "workstation".
+19:34:34.027 Error Message: java.lang.NullPointerException
+19:34:34.027 Specification: specs/mongoConnector.spec:10
+19:34:34.027 Stacktrace: 
+mongoConnector.mongoConnector(mongoConnector.java:18)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:34:34.134 Plugin [Html Report] with pid [96542] has exited
+19:34:34.545 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:34:34.545 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+19:34:34.545 
+Total time taken: 1.164s
+19:43:55.475 Checking updates...
+19:43:58.161 # Connect and Check Assets
+19:43:58.161 ## Check that the Mongo Instance is in a Cluster
+19:43:58.162 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+19:43:58.369 * The mongo instance "workstation" is "not" part of a cluster.
+
+19:43:58.371 ## Check that the Mongo Instance is a Primary
+19:43:58.371 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+19:43:58.374 * The mongo instance "workstation" is set as "Primary".
+19:43:58.481 Plugin [Html Report] with pid [96702] has exited
+19:43:58.584 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:43:58.584 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+19:43:58.584 
+Total time taken: 260ms
+19:44:42.353 Got a kill message. Killing runner.
+19:44:46.354 Killing runner with PID:96733 forcefully
+19:43:28.907 Checking updates...
+19:43:32.227 [ValidationError] /Users/awi40/tooling/mongoManipulator/specs/mongoConnector.spec:18: Step implementation not found => 'The mongo instance "workstation" cluster status is "true".'
+19:43:32.273 # Connect and Check Assets
+19:43:32.274 ## Check that the Mongo Instance is a Primary
+19:43:32.275 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+19:43:32.837 * The mongo instance "workstation" is set as "Primary".
+19:43:32.944 Plugin [Html Report] with pid [16990] has exited
+19:43:33.048 Specifications:	1 executed	1 passed	0 failed	0 skipped
+19:43:33.048 Scenarios:	1 executed	1 passed	0 failed	1 skipped
+19:43:33.050 
+Total time taken: 612ms
+19:44:29.274 Checking updates...
+19:44:32.400 # Connect and Check Assets
+19:44:32.400 ## Check that the Mongo Instance is in a Cluster
+19:44:32.401 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+19:44:32.583 * The mongo instance "workstation" cluster status is "true".
+
+19:44:34.024 
+Failed Step: The mongo instance "workstation" cluster status is "true".
+19:44:34.024 Specification: specs/mongoConnector.spec:18
+19:44:34.024 Error Message: java.lang.NullPointerException
+19:44:34.024 Stacktrace: 
+mongoConnector.clusterIsTrueOrFalse(mongoConnector.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+19:44:34.025 ## Check that the Mongo Instance is a Primary
+19:44:34.026 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+19:44:34.029 * The mongo instance "workstation" is set as "Primary".
+19:44:34.140 Plugin [Html Report] with pid [16998] has exited
+19:44:34.663 Specifications:	1 executed	0 passed	1 failed	0 skipped
+19:44:34.663 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+19:44:34.663 
+Total time taken: 1.677s
+17:01:15.220 Checking updates...
+17:01:17.910 # Connect and Check Assets
+17:01:17.911 ## Check that the Mongo Instance is in a Cluster
+17:01:17.912 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:01:18.022 * The mongo instance "workstation" cluster status is "true".
+
+17:01:18.933 
+Failed Step: The mongo instance "workstation" cluster status is "true".
+17:01:18.933 Specification: specs/mongoConnector.spec:18
+17:01:18.933 Error Message: java.lang.AssertionError
+17:01:18.933 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+mongoConnector.clusterIsTrueOrFalse(mongoConnector.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+17:01:18.934 ## Check that the Mongo Instance is a Primary
+17:01:18.935 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:01:18.937 * The mongo instance "workstation" is set as "Primary".
+17:01:19.044 Plugin [Html Report] with pid [40292] has exited
+17:01:19.567 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:01:19.567 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+17:01:19.567 
+Total time taken: 1.072s
+17:02:48.570 Checking updates...
+17:02:51.128 # Connect and Check Assets
+17:02:51.128 ## Check that the Mongo Instance is in a Cluster
+17:02:51.129 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:02:51.240 * The mongo instance "workstation" cluster status is "true".
+
+17:02:51.242 ## Check that the Mongo Instance is a Primary
+17:02:51.242 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:02:51.244 * The mongo instance "workstation" is set as "Primary".
+17:02:51.351 Plugin [Html Report] with pid [40357] has exited
+17:02:51.455 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:02:51.455 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+17:02:51.455 
+Total time taken: 134ms
+17:05:39.123 Checking updates...
+17:05:41.889 # Connect and Check Assets
+17:05:41.890 ## Check that the Mongo Instance is in a Cluster
+17:05:41.891 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:05:42.006 * The mongo instance "workstation" cluster status is "true".
+
+17:05:42.008 ## Check that the Mongo Instance is a Primary
+17:05:42.009 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:05:42.010 * The mongo instance "workstation" is set as "Primary".
+17:05:42.115 Plugin [Html Report] with pid [40383] has exited
+17:05:42.220 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:05:42.220 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+17:05:42.220 
+Total time taken: 137ms
+17:06:16.864 Checking updates...
+17:06:18.919 # Connect and Check Assets
+17:06:18.920 ## Check that the Mongo Instance is in a Cluster
+17:06:18.920 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:06:19.024 * The mongo instance "workstation" cluster status is "true".
+
+17:06:19.027 ## Check that the Mongo Instance is a Primary
+17:06:19.027 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:06:19.029 * The mongo instance "workstation" is set as "Primary".
+17:06:19.136 Plugin [Html Report] with pid [40393] has exited
+17:06:19.241 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:06:19.241 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+17:06:19.241 
+Total time taken: 125ms
+17:19:15.313 Checking updates...
+17:19:17.325 # Connect and Check Assets
+17:19:17.326 ## Check that the Mongo Instance is in a Cluster
+17:19:17.326 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:19:17.428 * The mongo instance "workstation" cluster status is "true".
+
+17:19:18.154 
+Failed Step: The mongo instance "workstation" cluster status is "true".
+17:19:18.154 Specification: specs/mongoConnector.spec:18
+17:19:18.154 Error Message: java.lang.AssertionError
+17:19:18.154 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertFalse(Assert.java:64)
+org.junit.Assert.assertFalse(Assert.java:74)
+mongoConnector.clusterIsTrueOrFalse(mongoConnector.java:32)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+17:19:18.155 ## Check that the Mongo Instance is a Primary
+17:19:18.155 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:19:18.157 * The mongo instance "workstation" is set as "Primary".
+17:19:18.265 Plugin [Html Report] with pid [40692] has exited
+17:19:18.681 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:19:18.681 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+17:19:18.681 
+Total time taken: 850ms
+17:24:14.989 Checking updates...
+17:24:17.615 # Connect and Check Assets
+17:24:17.616 ## Check that the Mongo Instance is in a Cluster
+17:24:17.617 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:24:17.729 * The mongo instance "workstation" cluster status is "true".
+
+17:24:17.731 ## Check that the Mongo Instance is a Primary
+17:24:17.732 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:24:17.734 * The mongo instance "workstation" is set as "Primary".
+17:24:17.841 Plugin [Html Report] with pid [40769] has exited
+17:24:17.946 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:24:17.946 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+17:24:17.946 
+Total time taken: 165ms
+17:29:54.163 Checking updates...
+17:29:56.151 # Connect and Check Assets
+17:29:56.152 ## Check that the Mongo Instance is in a Cluster
+17:29:56.153 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:29:56.258 * The mongo instance "workstation" cluster status is "true".
+
+17:29:56.979 
+Failed Step: The mongo instance "workstation" cluster status is "true".
+17:29:56.979 Specification: specs/mongoConnector.spec:18
+17:29:56.979 Error Message: java.lang.AssertionError
+17:29:56.979 Stacktrace: 
+org.junit.Assert.fail(Assert.java:86)
+org.junit.Assert.assertTrue(Assert.java:41)
+org.junit.Assert.assertTrue(Assert.java:52)
+mongoConnector.clusterIsTrueOrFalse(mongoConnector.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+17:29:56.980 ## Check that the Mongo Instance is a Primary
+17:29:56.980 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+17:29:56.982 * The mongo instance "workstation" is set as "Primary".
+17:29:57.089 Plugin [Html Report] with pid [40854] has exited
+17:29:57.194 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:29:57.194 Scenarios:	2 executed	1 passed	1 failed	0 skipped
+17:29:57.194 
+Total time taken: 882ms
+18:18:56.707 Checking updates...
+18:18:58.666 # Connect and Count Assets
+18:18:58.667 ## Number of Databases In Cosmos
+18:18:58.668 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:18:58.772 * The number of dbs within "workstation" is "7".
+
+18:18:59.732 
+Failed Step: The number of dbs within "workstation" is "7".
+18:18:59.732 Specification: specs/getDatabasesMetadata.spec:17
+18:18:59.732 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+18:18:59.732 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:18:59.733 ## Number of Collections within Databases
+18:18:59.734 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:18:59.736 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+18:19:00.075 
+Failed Step: Each db will have a specified number of collections.
+18:19:00.075 Specification: specs/getDatabasesMetadata.spec:27
+18:19:00.075 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+18:19:00.075 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:19:00.181 Plugin [Html Report] with pid [41737] has exited
+18:19:00.388 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:19:00.388 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+18:19:00.388 
+Total time taken: 1.45s
+18:19:08.476 Checking updates...
+18:19:10.976 # Connect and Count Assets
+18:19:10.977 ## Number of Databases In Cosmos
+18:19:10.981 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:19:11.085 * The number of dbs within "workstation" is "7".
+
+18:19:12.017 
+Failed Step: The number of dbs within "workstation" is "7".
+18:19:12.018 Specification: specs/getDatabasesMetadata.spec:17
+18:19:12.018 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+18:19:12.018 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:19:12.018 ## Number of Collections within Databases
+18:19:12.019 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:19:12.021 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+18:19:12.369 
+Failed Step: Each db will have a specified number of collections.
+18:19:12.369 Specification: specs/getDatabasesMetadata.spec:27
+18:19:12.369 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+18:19:12.369 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:19:12.478 Plugin [Html Report] with pid [41744] has exited
+18:19:12.893 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:19:12.893 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+18:19:12.893 
+Total time taken: 1.407s
+18:20:26.152 Checking updates...
+18:20:28.691 # Connect and Count Assets
+18:20:28.692 ## Number of Databases In Cosmos
+18:20:28.692 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:20:28.799 * The number of dbs within "workstation" is "7".
+
+18:20:29.802 
+Failed Step: The number of dbs within "workstation" is "7".
+18:20:29.802 Specification: specs/getDatabasesMetadata.spec:17
+18:20:29.802 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+18:20:29.802 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:26)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:20:29.803 ## Number of Collections within Databases
+18:20:29.803 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:20:29.805 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+18:20:30.208 
+Failed Step: Each db will have a specified number of collections.
+18:20:30.208 Specification: specs/getDatabasesMetadata.spec:27
+18:20:30.208 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+18:20:30.208 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:38)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:20:30.316 Plugin [Html Report] with pid [41767] has exited
+18:20:30.838 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:20:30.838 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+18:20:30.838 
+Total time taken: 1.537s
+18:21:05.625 Checking updates...
+18:21:08.090 [ValidationError] /Users/awi40/tooling/mongoManipulator/specs/getDatabasesMetadata.spec:10: Duplicate step implementation => 'Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".'
+18:21:08.209 Plugin [Html Report] with pid [41775] has exited
+18:21:08.314 Specifications:	0 executed	0 passed	0 failed	1 skipped
+18:21:08.314 Scenarios:	0 executed	0 passed	0 failed	2 skipped
+18:21:08.314 
+Total time taken: 14ms
+18:22:46.752 Checking updates...
+18:22:49.278 # Connect and Count Assets
+18:22:49.279 ## Number of Databases In Cosmos
+18:22:49.280 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:22:49.390 * The number of dbs within "workstation" is "7".
+
+18:22:50.120 
+Failed Step: The number of dbs within "workstation" is "7".
+18:22:50.120 Specification: specs/getDatabasesMetadata.spec:17
+18:22:50.120 Error Message: java.lang.NullPointerException
+18:22:50.120 Stacktrace: 
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:22:50.121 ## Number of Collections within Databases
+18:22:50.122 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+18:22:50.124 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+18:22:50.421 
+Failed Step: Each db will have a specified number of collections.
+18:22:50.421 Specification: specs/getDatabasesMetadata.spec:27
+18:22:50.421 Error Message: java.lang.NullPointerException
+18:22:50.421 Stacktrace: 
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:32)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+18:22:50.527 Plugin [Html Report] with pid [41837] has exited
+18:22:51.047 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:22:51.047 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+18:22:51.047 
+Total time taken: 1.158s
+10:20:33.596 Checking updates...
+10:20:36.099 # Connect and Count Assets
+10:20:36.100 ## Number of Databases In Cosmos
+10:20:36.101 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:20:36.220 * The number of dbs within "workstation" is "7".
+
+10:20:38.880 
+Failed Step: The number of dbs within "workstation" is "7".
+10:20:38.880 Specification: specs/getDatabasesMetadata.spec:17
+10:20:38.880 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+10:20:38.880 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:20:38.882 ## Number of Collections within Databases
+10:20:38.882 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+10:20:38.886 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+10:20:39.266 
+Failed Step: Each db will have a specified number of collections.
+10:20:39.266 Specification: specs/getDatabasesMetadata.spec:27
+10:20:39.266 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+10:20:39.267 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+10:20:39.374 Plugin [Html Report] with pid [62242] has exited
+10:20:39.894 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:20:39.894 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+10:20:39.894 
+Total time taken: 3.208s
+20:15:51.718 Checking updates...
+20:15:52.948 Failed to download java-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=darwin&a=amd64.
+502 Bad Gateway
+20:15:53.845 # Connect and Count Assets
+20:15:53.846 ## Number of Databases In Cosmos
+20:15:53.847 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:15:54.104 * The number of dbs within "workstation" is "7".
+
+20:15:55.292 
+Failed Step: The number of dbs within "workstation" is "7".
+20:15:55.293 Specification: specs/getDatabasesMetadata.spec:17
+20:15:55.293 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+20:15:55.293 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:15:55.294 ## Number of Collections within Databases
+20:15:55.295 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:15:55.296 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+20:15:55.643 
+Failed Step: Each db will have a specified number of collections.
+20:15:55.643 Specification: specs/getDatabasesMetadata.spec:27
+20:15:55.643 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+20:15:55.643 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:15:55.751 Plugin [Html Report] with pid [16450] has exited
+20:15:56.268 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:15:56.268 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+20:15:56.270 
+Total time taken: 1.85s
+20:16:19.582 Checking updates...
+20:16:21.923 # Connect and Count Assets
+20:16:21.923 ## Number of Databases In Cosmos
+20:16:21.924 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:16:22.582 * The number of dbs within "workstation" is "7".
+
+20:16:23.535 
+Failed Step: The number of dbs within "workstation" is "7".
+20:16:23.536 Specification: specs/getDatabasesMetadata.spec:17
+20:16:23.536 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+20:16:23.536 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:16:23.537 ## Number of Collections within Databases
+20:16:23.537 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:16:23.539 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+20:16:23.898 
+Failed Step: Each db will have a specified number of collections.
+20:16:23.899 Specification: specs/getDatabasesMetadata.spec:27
+20:16:23.899 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+20:16:23.899 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:16:24.005 Plugin [Html Report] with pid [16456] has exited
+20:16:24.107 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:16:24.107 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+20:16:24.107 
+Total time taken: 2.028s
+20:17:02.970 Checking updates...
+20:17:05.200 # Connect and Check Assets
+20:17:05.200 ## Check that the Mongo Instance is in a Cluster
+20:17:05.201 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:05.370 * The mongo instance "workstation" cluster status is "false".
+
+20:17:05.374 ## Check that the Mongo Instance is a Primary
+20:17:05.374 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:05.376 * The mongo instance "workstation" is set as "Primary".
+20:17:05.482 Plugin [Html Report] with pid [16478] has exited
+20:17:05.585 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:17:05.585 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+20:17:05.585 
+Total time taken: 218ms
+20:17:21.666 Checking updates...
+20:17:23.844 # Connect and Check Assets
+20:17:23.845 ## Check that the Mongo Instance is in a Cluster
+20:17:23.846 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:24.707 * The mongo instance "workstation" cluster status is "false".
+
+20:17:24.710 ## Check that the Mongo Instance is a Primary
+20:17:24.711 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:24.712 * The mongo instance "workstation" is set as "Primary".
+20:17:24.818 Plugin [Html Report] with pid [16484] has exited
+20:17:24.921 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:17:24.921 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+20:17:24.921 
+Total time taken: 908ms
+20:17:41.547 # Connect and Count Assets
+20:17:41.547 ## Number of Databases In Cosmos
+20:17:41.548 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:43.913 * The number of dbs within "workstation" is "7".
+
+20:17:44.851 
+Failed Step: The number of dbs within "workstation" is "7".
+20:17:44.851 Specification: specs/getDatabasesMetadata.spec:17
+20:17:44.851 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/admin
+20:17:44.851 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DB.command(DB.java:278)
+com.mongodb.DB.command(DB.java:256)
+com.mongodb.DB.command(DB.java:301)
+com.mongodb.Mongo.getDatabaseNames(Mongo.java:393)
+databasesMetadataRetriever.countDBs(databasesMetadataRetriever.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:17:44.851 ## Number of Collections within Databases
+20:17:44.852 * Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+
+20:17:44.854 * Each db will have a specified number of collections. 
+
+     |DB           |Collections|
+     |-------------|-----------|
+     |content-store|10         |
+     |event-store  |6          |
+     |feed-store   |2          |
+     |link-store   |3          |
+     |view-builder |3          |
+     |view-store   |9          |
+20:17:45.231 
+Failed Step: Each db will have a specified number of collections.
+20:17:45.231 Specification: specs/getDatabasesMetadata.spec:27
+20:17:45.231 Error Message: com.mongodb.MongoException$Network: can't call something : /127.0.0.1:0/content-store
+20:17:45.231 Stacktrace: 
+com.mongodb.DBTCPConnector.innerCall(DBTCPConnector.java:295)
+com.mongodb.DBTCPConnector.call(DBTCPConnector.java:257)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:310)
+com.mongodb.DBApiLayer$MyCollection.__find(DBApiLayer.java:295)
+com.mongodb.DB.getCollectionNames(DB.java:400)
+databasesMetadataRetriever.iterateThroughDBsCountCollections(databasesMetadataRetriever.java:39)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:497)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:112)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:81)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:62)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:42)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:31)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:72)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+20:17:45.339 Plugin [Html Report] with pid [16490] has exited
+20:17:45.757 Specifications:	1 executed	0 passed	1 failed	0 skipped
+20:17:45.757 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+20:17:45.757 
+Total time taken: 3.734s

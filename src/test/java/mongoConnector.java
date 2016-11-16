@@ -1,13 +1,9 @@
-import com.mongodb.DB;
-import com.mongodb.MongoClient;
+import com.mongodb.*;
+import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.Table;
-import com.thoughtworks.gauge.TableRow;
 import org.junit.Assert;
 
 import java.net.UnknownHostException;
-import java.util.List;
-import java.util.Set;
 
 import static java.lang.Integer.parseInt;
 
@@ -18,33 +14,25 @@ public class mongoConnector {
     private String hostName;
     private int portNumber;
 
-    @Step("To connect to <server> I need a host of <hostName> and a port of <portNumber>.")
+    @Step("Connect to <server> I need a host of <hostname> and a port of <portNumber>.")
     public void mongoConnector(String server, String hostName, int portNumber) throws UnknownHostException {
-        this.hostName = hostName;
         this.portNumber = portNumber;
-        mongo = new MongoClient(hostName, portNumber);
+        this.hostName = hostName;
+        mongo = new MongoClient(new ServerAddress(hostName, portNumber));
     }
 
-    @Step("The number of dbs within <server> is <expectedNumberOfDBs>.")
-    public void countDBs(String server, int expectedNumberOfDBs) throws UnknownHostException {
-        mongo = new MongoClient(hostName, portNumber);
-        List<String> dbs = mongo.getDatabaseNames();
-        Assert.assertEquals("Number of DBs on "+server, expectedNumberOfDBs, dbs.size());
+    @Step("The mongo instance <server> cluster status is <clusterStatus>.")
+    public void clusterIsTrueOrFalse(String server, Boolean clusterStatus) throws UnknownHostException {
+        Boolean expectedClusterStatus = clusterStatus;
+        Boolean isSlave = mongo.getReadPreference().isSlaveOk();
+        Assert.assertTrue(expectedClusterStatus == isSlave);
     }
 
 
-    @Step("Each db will have a specified number of collections. <collectionsByDBTable>")
-    public void iterateThroughDBsCountCollections(Table table) throws UnknownHostException {
-        mongo = new MongoClient(hostName, portNumber);
-        for(TableRow row : table.getTableRows()){
-            String nextDB = row.getCell("DB");
-            int noCollections = parseInt(row.getCell("Collections"));
-            DB dbMongo = mongo.getDB(nextDB);
-            Set<String> collectionNames = dbMongo.getCollectionNames();
-            Assert.assertEquals(nextDB+" has the expected number of collections", noCollections, collectionNames.size());
-        }
+    @Step("The mongo instance <workstation> is set as <Primary>.")
+    public void primaryIsTrueOrFalse(String server, String readPref) {
+
     }
 
     private MongoClient mongo;
-
 }

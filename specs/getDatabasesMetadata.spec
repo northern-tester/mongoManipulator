@@ -5,9 +5,9 @@ This is an executable specification file. This file follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
 To execute this specification, run
-	gauge specs/mongoConnector
+	gauge specs/getDatabasesMetadata
 
-* To connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
+* Connect to "workstation" I need a host of "33.33.34.10" and a port of "27017".
 
 Number of Databases In Cosmos
 -----------------------------

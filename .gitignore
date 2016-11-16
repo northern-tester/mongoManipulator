@@ -5,6 +5,6 @@
 *.iml
 out
 gen
-logs/
+logs
 .gauge
 reports
