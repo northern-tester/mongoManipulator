@@ -10,7 +10,7 @@ To execute this specification, run
 
 * Vowels in English language are "aeiou".
 
-Vowel counts in single word
+Vowel counts in single wordddd
 ---------------------------
 
 tags: single word
